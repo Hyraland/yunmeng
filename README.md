@@ -1,16 +1,16 @@
 # 云梦泽
 
-楚辞中云梦泽意象的场景：像动物皮毛一样密集光滑又长到倒伏的草原，和浅浅的邱泽交替，巨大的白色的动物骨头散落在四野。阴影是蓝色，草像海浪一样涌动。
+楚辞中云梦泽意象的场景。与Claude Opus合作完成。
 
-## 运行
-
-要从本地服务器打开，例如：
+## 本地运行
 
 ```bash
 python3 -m http.server
 ```
 
-然后打开 http://localhost:8000 。three.js 从 CDN 加载，需要联网。
+# Github Pages
+
+[https://hyraland.github.io/yunmeng](https://hyraland.github.io/yunmeng)
 
 ## 操作
 
@@ -18,4 +18,4 @@ WASD 行走，双击 W（按住）或按住 Shift 跑，拖动转头。右上角
 
 ## 模型
 
-骨骼模型的来源和署名见 [assets/models/SOURCES.md](assets/models/SOURCES.md)。声音和音乐全部实时合成，不用录音。
+骨骼模型的来源和署名见 [assets/models/SOURCES.md](assets/models/SOURCES.md)。声音和音乐为Claude Opus实时合成。
