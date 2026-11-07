@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>云梦泽</title>
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.169.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.169.0/examples/jsm/"
+      }
+    }
+  </script>
+  <style>
+    html, body { margin: 0; height: 100%; overflow: hidden; background: #e3f1f7; }
+    canvas { display: block; touch-action: none; cursor: grab; }
+    canvas:active { cursor: grabbing; }
+    #msg { position: fixed; inset: 0; display: grid; place-items: center; font: 14px -apple-system, 'PingFang SC', sans-serif; color: #55788c; }
+    .menu { position: fixed; top: 14px; right: 14px; font: 400 13px/1.5 -apple-system, 'PingFang SC', 'Noto Sans SC', sans-serif; color: #3f5f70; user-select: none; }
+    .menu [hidden] { display: none; }
+    .menu-dots {
+      display: flex; align-items: center; justify-content: center; gap: 4px; margin-left: auto;
+      width: 40px; height: 30px; padding: 0; border: 0; background: none; cursor: pointer; opacity: 0.8;
+    }
+    .menu-dots:hover, .menu-dots[aria-expanded="true"] { opacity: 1; }
+    .menu-dots span { width: 4px; height: 4px; border-radius: 50%; background: #2f4c5c; }
+    .menu[data-sky="night"] .menu-dots span { background: #fff; } /* (no one colour shows on both the pale sky and the night) */
+    .menu-panel {
+      margin-top: 8px; width: 264px; max-height: calc(100vh - 76px); overflow-y: auto; padding: 4px 16px 12px; box-sizing: border-box;
+      border-radius: 12px; background: rgba(248, 251, 251, 0.94); box-shadow: 0 6px 24px rgba(30, 55, 70, 0.18);
+    }
+    .menu h2 { margin: 12px 0 6px; font-size: 12px; font-weight: 500; color: #6d8b9b; }
+    .menu-row { display: flex; justify-content: space-between; align-items: center; min-height: 26px; }
+    .menu-keys { color: #6d8b9b; }
+    .menu-switch { cursor: pointer; }
+    .menu-switch input { width: 16px; height: 16px; margin: 0; accent-color: #5b8aa3; cursor: pointer; }
+    .menu-choices { display: flex; gap: 6px; }
+    .menu-choices button {
+      flex: 1; padding: 5px 0; border: 1px solid #c5d6dd; border-radius: 7px; background: transparent; color: inherit; font: inherit; cursor: pointer;
+    }
+    .menu-choices button:hover { background: rgba(91, 138, 163, 0.12); }
+    .menu-choices button[aria-pressed="true"] { background: #5b8aa3; border-color: #5b8aa3; color: #fff; }
+    .menu-credit { margin: 0 0 6px; font-size: 11.5px; line-height: 1.45; color: #5d7a89; user-select: text; }
+    .menu-credit a { color: #3c7795; }
+  </style>
+</head>
+<body>
+  <div id="msg">正在生成云梦……</div>
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>

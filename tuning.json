@@ -1,0 +1,127 @@
+{
+  "wind": {
+    "az": 117,
+    "speed": 19,
+    "size": 945,
+    "cover": 0.51,
+    "soft": 0.13,
+    "small": 0.45,
+    "fine": 0.5,
+    "warp": 119,
+    "turb": 0.5,
+    "spread": 12,
+    "stiff": 14,
+    "damp": 3.2,
+    "dampBack": 5.5,
+    "couple": 22,
+    "bend": 0.55,
+    "follow": 1.51,
+    "flutter": 0.05
+  },
+  "blade": {
+    "len": 1.55,
+    "width": 1,
+    "root": 0.72,
+    "tip": 1.7,
+    "comb": 0.93,
+    "jitter": 0.1,
+    "fall": 0.2,
+    "density": 1,
+    "part": 1.2,
+    "tuft": 0.6
+  },
+  "light": {
+    "az": 215,
+    "el": 34,
+    "kd": 0.6,
+    "nap": 0,
+    "bias": -0.2,
+    "band": 0.13,
+    "bandAmt": 0.33,
+    "vary": 0.085,
+    "cloud": 0.11,
+    "cloudSize": 100,
+    "cloudSpeed": 9,
+    "haze": 0.0032,
+    "stem": 0.16
+  },
+  "color": {
+    "hueLock": true,
+    "lit": "#9daf6d",
+    "lit2": "#c0d781",
+    "shade": "#7ea0d7",
+    "band": "#e8e096",
+    "sheen": "#fffbe2",
+    "gust": "#f2f1c4",
+    "stem": "#bdb2e6",
+    "haze": "#e6f3f8",
+    "bank": "#e9e6c8",
+    "skyTop": "#8cc6ef",
+    "skyLow": "#eef7fa",
+    "cloud": "#ffffff",
+    "bed": "#d6e6d2",
+    "deep": "#a9d6e3"
+  },
+  "gloss": {
+    "spec": 30,
+    "shine": 18,
+    "shineFar": 9,
+    "twinkle": 0.7,
+    "sky": 0.3,
+    "facing": 0.4,
+    "press": 0.34,
+    "scatter": 0.12,
+    "gap": 0.6,
+    "gapDist": 2.5
+  },
+  "sun": {
+    "relief": 1.5,
+    "saturate": 1.25,
+    "glow": 0.4,
+    "glowColor": "#dded5f",
+    "contrast": 0.55,
+    "depth": 0.28,
+    "clear": 0.32,
+    "sky": 0.75,
+    "zenith": "#2f8fe6",
+    "horizon": "#b9def5",
+    "cloudShade": "#aec6e2",
+    "glint": 1.6
+  },
+  "toon": {
+    "on": true,
+    "strand": 0.85,
+    "gust": 0.42,
+    "sheen": 0.72,
+    "hazeSteps": 5,
+    "outline": 0.44,
+    "outlineColor": "#ff955c"
+  },
+  "bones": {
+    "scale": 1,
+    "depth": 0.6,
+    "lit": "#fdfaf0",
+    "shade": "#c3d9ee"
+  },
+  "water": {
+    "ripple": 0.05,
+    "gust": 2.2,
+    "mirror": 0.72,
+    "shoreAlpha": 0.1
+  },
+  "shore": {
+    "from": -0.12,
+    "to": 0.14,
+    "short": 0.45
+  },
+  "walk": {
+    "speed": 3.2,
+    "run": 9,
+    "fly": 26
+  },
+  "camera": {
+    "fov": 58,
+    "eye": 1.62,
+    "pixelRatio": 1.5
+  }
+}

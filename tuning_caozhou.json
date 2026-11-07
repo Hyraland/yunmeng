@@ -1,0 +1,507 @@
+{
+  "wind": {
+    "az": 117,
+    "speed": 19,
+    "size": 945,
+    "cover": 0.51,
+    "soft": 0.13,
+    "small": 0.45,
+    "fine": 0.5,
+    "warp": 119,
+    "turb": 0.5,
+    "spread": 12,
+    "stiff": 14,
+    "damp": 3.2,
+    "dampBack": 5.5,
+    "couple": 22,
+    "bend": 0.55,
+    "follow": 1.51,
+    "flutter": 0.05
+  },
+  "blade": {
+    "len": 1.55,
+    "width": 1,
+    "root": 0.72,
+    "tip": 1.7,
+    "comb": 0.93,
+    "jitter": 0.1,
+    "fall": 0.2,
+    "density": 1,
+    "part": 1.2,
+    "tuft": 0.6,
+    "hug": 0.9
+  },
+  "light": {
+    "az": 215,
+    "el": 34,
+    "kd": 0.6,
+    "nap": 0,
+    "bias": -0.1,
+    "band": 0.13,
+    "backSlope": 1.6,
+    "bandAmt": 0.33,
+    "vary": 0.085,
+    "cloud": 0.35,
+    "cover": 0.04,
+    "cloudSize": 900,
+    "cloudSpeed": 7,
+    "cloudLink": 1,
+    "haze": 0.0032,
+    "hazeUp": 0.6,
+    "stem": 0.16
+  },
+  "color": {
+    "hueLock": true,
+    "lit": "#9fae75",
+    "lit2": "#c2d68b",
+    "shade": "#44637e",
+    "band": "#e8e096",
+    "sheen": "#fffbe2",
+    "gust": "#f2f1c4",
+    "stem": "#bdb2e6",
+    "haze": "#eaf3f3",
+    "bank": "#a9bd8a",
+    "wet": "#6fb05e",
+    "skyTop": "#8cc6ef",
+    "skyLow": "#f0f6f4",
+    "cloud": "#ffffff",
+    "bed": "#c7ddd4",
+    "deep": "#a9d3dd"
+  },
+  "gloss": {
+    "spec": 30,
+    "shine": 22,
+    "shineFar": 9,
+    "twinkle": 0.7,
+    "sky": 0.3,
+    "facing": 0.4,
+    "press": 0.34,
+    "scatter": 0.12,
+    "gap": 0.6,
+    "gapDist": 2.5
+  },
+  "sun": {
+    "relief": 1,
+    "saturate": 0.97,
+    "glow": 0.4,
+    "glowColor": "#f1ff8a",
+    "contrast": 0.35,
+    "depth": 0.28,
+    "clear": 0.85,
+    "sky": 0.39,
+    "zenith": "#85d6ff",
+    "horizon": "#eaf3f3",
+    "cloudBlue": "#a6cdf5",
+    "glint": 1.65
+  },
+  "kinds": {
+    "amount": 0.11,
+    "straw": 0.04,
+    "dry": "#d4cf88",
+    "cool": "#7fab8e",
+    "rose": "#cbc4a6"
+  },
+  "halo": {
+    "amount": 1.8,
+    "radius": 27.5,
+    "ring": 0.5,
+    "suns": 1.11,
+    "size": 1.04,
+    "color": "#fffbf0",
+    "pillar": 0.4,
+    "circle": 0.3,
+    "arcs": 0.5,
+    "bigShare": 0.7,
+    "bigRadius": 46.5,
+    "zenith": 0,
+    "through": 0.25,
+    "sun": 1,
+    "sunThrough": 0.25,
+    "sunSize": 1
+  },
+  "toon": {
+    "on": true,
+    "strand": 0.85,
+    "gust": 0.42,
+    "sheen": 0.72,
+    "waterSoft": 45,
+    "hazeSteps": 5,
+    "outline": 0.25,
+    "outlineColor": "#7890bf",
+    "softClouds": 1,
+    "clouds": 1,
+    "cloudTall": 0.5
+  },
+  "reeds": {
+    "amount": 3,
+    "density": 1,
+    "height": 1,
+    "bend": 0.42,
+    "flutter": 0.035,
+    "droop": 0.85,
+    "stream": 2.6,
+    "shade": 1,
+    "stalk": "#9eae75",
+    "leaf": "#9eae75",
+    "leaf2": "#c5cc7a",
+    "plume": "#f8f3e8",
+    "plumeBase": "#d6d8e5"
+  },
+  "flowers": {
+    "amount": 1,
+    "height": 0.7,
+    "bend": 0.5,
+    "flutter": 0.04,
+    "droop": 0.92,
+    "stream": 1.2,
+    "shade": 0.45,
+    "stalk": "#9db568",
+    "leaf": "#8fa863",
+    "leaf2": "#adc074",
+    "spike": "#b83d6e",
+    "spikeBase": "#d7789a"
+  },
+  "plantShadow": {
+    "amount": 1,
+    "wide": 2
+  },
+  "hills": {
+    "height": 1.17,
+    "az": 305,
+    "span": 79,
+    "around": 0.06,
+    "mist": 0.85,
+    "distance": 400,
+    "feet": 1,
+    "flat": 0,
+    "near": "#bfd5aa",
+    "far": "#d7e5d1"
+  },
+  "bones": {
+    "scale": 1.6,
+    "depth": 0.66,
+    "form": 1,
+    "occlusion": 0.76,
+    "bounce": 0.8,
+    "coil": "nautilus",
+    "darkShare": -0.2,
+    "castShadow": 1,
+    "castFade": 0.45,
+    "bandColor": "#e89696",
+    "bandAmt": 0.33,
+    "bounceColor": "#b88ea4",
+    "bounceGrass": "#b1c280",
+    "bounceMix": 0.75,
+    "sheenColor": "#fffbe5",
+    "sheenAmt": 1,
+    "lit": "#ffffff",
+    "shade": "#5382ac"
+  },
+  "water": {
+    "ripple": 0.05,
+    "gust": 2.2,
+    "mirror": 0.78,
+    "shoreAlpha": 0.1,
+    "clear": 0.95,
+    "absorb": 0.5,
+    "shallow": 0.2,
+    "web": 0.12,
+    "marks": 0.12,
+    "sand": "#ddd5ae",
+    "mud": "#a3a78c"
+  },
+  "shore": {
+    "from": -0.32,
+    "to": 0.05,
+    "short": 0.55,
+    "wet": 0,
+    "wetTo": 0.32,
+    "stand": 0.08
+  },
+  "birds": {
+    "count": 0,
+    "size": 1.4,
+    "shy": 1,
+    "lit": "#ffffff",
+    "shade": "#b6cde6",
+    "beak": "#e2b23c",
+    "leg": "#23262c"
+  },
+  "walk": {
+    "speed": 3.2,
+    "run": 9,
+    "fly": 26,
+    "trail": 40,
+    "trailAmt": 1,
+    "trailWide": 1.9,
+    "reach": 0.5,
+    "ripple": 1
+  },
+  "mist": {
+    "on": true,
+    "density": 0.0075,
+    "height": 5,
+    "patch": 0.75,
+    "soft": 1,
+    "softClouds": 1,
+    "vol": 1,
+    "volDensity": 0.11,
+    "volHeight": 9.7,
+    "volCover": 0.61,
+    "volSize": 365,
+    "volClear": 5,
+    "volEdge": 0.3,
+    "volDrift": 1.4,
+    "volShaft": 0.76,
+    "volGlow": 1.62,
+    "volSteps": 28,
+    "volRes": 0.34,
+    "volBlur": 2,
+    "volLit": "#ffffff",
+    "volShade": "#ebf5ff",
+    "look": {
+      "color": {
+        "lit": "#8fa56d",
+        "lit2": "#aebf7f",
+        "shade": "#4f7286",
+        "band": "#cfd4a4",
+        "sheen": "#f2f3df",
+        "gust": "#dfe4bf",
+        "haze": "#dbe3df",
+        "bank": "#6d7f62",
+        "wet": "#8fa56d",
+        "skyTop": "#9dbccd",
+        "skyLow": "#dde5e2",
+        "cloud": "#f3f4ee",
+        "bed": "#b1c5bf",
+        "deep": "#88a4aa"
+      },
+      "sun": {
+        "relief": 0.95,
+        "saturate": 1,
+        "glow": 0.26,
+        "contrast": 0.3,
+        "depth": 0.26,
+        "clear": 1,
+        "sky": 0,
+        "cloudBlue": "#bfd0da",
+        "glint": 0.45
+      },
+      "gloss": {
+        "spec": 15,
+        "shine": 10,
+        "shineFar": 6,
+        "sky": 0.35
+      },
+      "light": {
+        "kd": 0.6,
+        "bias": -0.08,
+        "band": 0.24,
+        "bandAmt": 0.2,
+        "cloud": 0.22,
+        "cover": 0.16,
+        "haze": 0.0007,
+        "hazeUp": 0.25,
+        "backSlope": 2
+      },
+      "shore": {
+        "wet": 0.55,
+        "wetTo": 0.3
+      },
+      "reeds": {
+        "stalk": "#71875f",
+        "leaf": "#7c9068",
+        "leaf2": "#a4b284",
+        "plume": "#f2f0e8",
+        "plumeBase": "#d2d3d6",
+        "shade": 0.75
+      },
+      "bones": {
+        "lit": "#f8f8f3",
+        "shade": "#8ea7bd",
+        "depth": 0.75,
+        "bandColor": "#e6dcc6",
+        "bandAmt": 0.18,
+        "sheenAmt": 0.3,
+        "sheenColor": "#fbfaf0",
+        "castShadow": 0.7
+      },
+      "birds": {
+        "lit": "#fbfbf7",
+        "shade": "#bccad4"
+      },
+      "hills": {
+        "mist": 0.95
+      },
+      "kinds": {
+        "dry": "#bcbd84",
+        "cool": "#7d9d83",
+        "rose": "#b5a892"
+      },
+      "flowers": {
+        "stalk": "#71875f",
+        "leaf": "#6e8560",
+        "leaf2": "#8fa276",
+        "spike": "#a3607c",
+        "spikeBase": "#bb8a9d"
+      },
+      "halo": {
+        "amount": 1.42,
+        "through": 1,
+        "sun": 1.66,
+        "sunThrough": 1,
+        "sunSize": 1.32
+      },
+      "water": {
+        "mirror": 0.82,
+        "clear": 0.68,
+        "absorb": 0.85,
+        "ripple": 0.035,
+        "gust": 1.5,
+        "web": 0,
+        "marks": 0.06,
+        "sand": "#c5c3a9",
+        "mud": "#8fa56d"
+      }
+    }
+  },
+  "night": {
+    "on": true,
+    "softClouds": 1,
+    "fog": {
+      "on": 1,
+      "density": 0.121,
+      "height": 6.3,
+      "cover": 0.64,
+      "shaft": 0.6,
+      "glow": 0.98,
+      "lit": "#b3c4e6",
+      "shade": "#8da1d3"
+    },
+    "az": 330,
+    "rise": -7,
+    "radius": 42,
+    "span": 134,
+    "even": 0.75,
+    "size": 1.25,
+    "full": 1,
+    "stars": 0.9,
+    "crescent": 1,
+    "moon": "#f7f5ec",
+    "moonDark": "#26325c",
+    "glow": "#5a70a4",
+    "fireflies": 260,
+    "fireflyColor": "#70cfff",
+    "fireflySize": 0.7,
+    "fireflyBright": 1.6,
+    "fireflyLight": 0.7,
+    "fireflyReach": 1.3,
+    "look": {
+      "color": {
+        "lit": "#54798a",
+        "lit2": "#7298a5",
+        "shade": "#1b2b52",
+        "band": "#7a97b5",
+        "sheen": "#e2ecff",
+        "gust": "#a7c2d6",
+        "stem": "#5c629e",
+        "haze": "#1e2d50",
+        "bank": "#3e5667",
+        "wet": "#3b6b73",
+        "skyTop": "#0b1433",
+        "skyLow": "#2a3b66",
+        "cloud": "#6a79a4",
+        "bed": "#2b4b68",
+        "deep": "#1a2b50"
+      },
+      "sun": {
+        "relief": 1,
+        "saturate": 1,
+        "glow": 0.22,
+        "glowColor": "#7cb6b0",
+        "contrast": 0.2,
+        "depth": 0.3,
+        "clear": 0.7,
+        "sky": 0,
+        "cloudBlue": "#303e6a",
+        "glint": 1.3
+      },
+      "light": {
+        "kd": 0.6,
+        "bias": -0.1,
+        "nap": 0,
+        "cloud": 0.5,
+        "cover": 0.13,
+        "haze": 0.0024
+      },
+      "reeds": {
+        "stalk": "#4a697c",
+        "leaf": "#4a697c",
+        "leaf2": "#6c8c98",
+        "plume": "#d3dff2",
+        "plumeBase": "#8c9ec2",
+        "shade": 1
+      },
+      "bones": {
+        "lit": "#e2ebfa",
+        "shade": "#7591c2",
+        "depth": 0.8,
+        "bandColor": "#7a97b5",
+        "bounceColor": "#638897",
+        "bounceGrass": "#4f7a78",
+        "sheenColor": "#e2ecff"
+      },
+      "hills": {
+        "near": "#20345a",
+        "far": "#2e426c"
+      },
+      "water": {
+        "mirror": 0.86,
+        "clear": 0.4,
+        "absorb": 0.8,
+        "web": 0,
+        "marks": 0.05,
+        "sand": "#4a6072",
+        "mud": "#283a4f"
+      },
+      "toon": {
+        "outlineColor": "#a4bce4"
+      },
+      "birds": {
+        "lit": "#dfe9fa",
+        "shade": "#6d8aba",
+        "beak": "#8a8066",
+        "leg": "#10141f"
+      },
+      "kinds": {
+        "dry": "#86a3a6",
+        "cool": "#4c7590",
+        "rose": "#7d86ab"
+      },
+      "flowers": {
+        "stalk": "#4a697c",
+        "leaf": "#46657a",
+        "leaf2": "#638092",
+        "spike": "#7a5d96",
+        "spikeBase": "#8f82b2"
+      }
+    }
+  },
+  "sound": {
+    "on": true,
+    "musicOn": true,
+    "volume": 0.85,
+    "wind": 1,
+    "water": 1,
+    "reeds": 1,
+    "bones": 1,
+    "steps": 0.19,
+    "life": 1,
+    "music": 0.7
+  },
+  "camera": {
+    "fov": 58,
+    "eye": 1.62,
+    "pixelRatio": 1.5
+  }
+}
